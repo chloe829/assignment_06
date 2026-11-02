@@ -11,7 +11,13 @@ at the code within these functions, understand how the code works, and how it re
 api calls in the first place. For example, I will specifically look at entity_mentions, where I 
 will rewrite the code to get an idea of how its written, look for where the api call would come
 into effect, and try to understand the code from a less technical view, and more toward what it
-actually does and creates for the overall program.
+actually does and creates for the overall program. Specifically, the functions were challenging
+of the dataframe part. In entity_mentions(), there's a variable called inside which has
+(placed["entity_offset"] >= placed["sentence_offset"]) & (
+        placed["entity_offset"] < placed["sentence_offset"] + placed["sentence_length"]
+    ) inside of it. I had no idea where to start, that I even had to connect back to the dataframes
+and the column generation that was a part of it. Therefore, i should focus on learning how to 
+call dataframes and generate columns and dataframes using operators such as &, <, +, etc..
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
