@@ -8,7 +8,10 @@ section. Overall, I was kind of lost and didn't exactly know what direction to g
 the code. For example, I didn't know where to start for functions such as entity_mentions(),
 summarize_items(), or question_scope(). One thing I can do to better understand is further look
 at the code within these functions, understand how the code works, and how it relates back to
-api calls in the first place.
+api calls in the first place. For example, I will specifically look at entity_mentions, where I 
+will rewrite the code to get an idea of how its written, look for where the api call would come
+into effect, and try to understand the code from a less technical view, and more toward what it
+actually does and creates for the overall program.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
