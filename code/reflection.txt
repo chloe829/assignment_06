@@ -8,9 +8,12 @@ section. Overall, I was kind of lost and didn't exactly know what direction to g
 the code. For example, I didn't know where to start for functions such as entity_mentions(),
 summarize_items(), or question_scope(). One thing I can do to better understand is further look
 at the code within these functions, understand how the code works, and how it relates back to
-api calls in the first place. For example, I will specifically look at entity_mentions, and how 
-the function interacted with dataframes in the inside variable. I want to further understand how 
-to use the &, <, and + operators in the context of dissecting dataframes for function use.
+api calls in the first place. For example, I will examine the entity_mentions() function, and how 
+the function interacted with dataframes in the 'inside' variable. I hope to understand how 
+to use the &, <, and + operators in the context of dissecting dataframes for function use. I also 
+hope to understand how to interact with a dataframe like how the 'inside' variable used 
+placed['entity_offet'] >= placed['sentence_offset']. I think this will help me understand how 
+to interact with dataframes better.
 
 
 See reflection.md for what makes a good reflection — be specific, use the
