@@ -1,4 +1,4 @@
-For this assignment, I learned about how to make api calls and use my api key as part of
+For this assignment, I learned about how to make api calls and use my API key as part of
 a data pipeline. For example, the first and one of the most importants steps is to create a
 .env file to put in (CENT_API_KEY=''). This way, people cannot steal a person's api key and use
 it without permission. I also learned about differences in code for making api calls. For example,
@@ -6,13 +6,12 @@ in apicalls.py, it's important to send the right form. For json, use json= rathe
 in the response() argument. One thing that was challenging in this assignment was the aspects.py
 section. Overall, I was kind of lost and didn't exactly know what direction to go in to create
 the code. For example, I didn't know where to start for functions such as entity_mentions(),
-summarize_items(), or question_scope(). To form a better understanding, I will examine the entity_mentions() function, and how 
-the function interacted with dataframes in the 'inside' variable. I hope to understand how 
-to use the &, <, and + operators in the context of dissecting dataframes for function use. I also 
-hope to understand how to interact with a dataframe like how the 'inside' variable used 
-placed['entity_offet'] >= placed['sentence_offset']. I think this will help me understand how 
-to interact with dataframes better.
-
+summarize_items(), or question_scope(). For the future, I want to get better at prompting with 
+an ai chatbot. This means, being able to enginner prompts that will give me better answers that can 
+be used within the code and achieve my goals. I will get better at prompting by practicing with 
+an ai chatbot such as claude, and practicing telling claude different chunks of code I want it to 
+create for various reasons. One could be having claude turn code from an API into readable code 
+for vscode by telling it to use json_normalize.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
