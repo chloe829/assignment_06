@@ -6,9 +6,7 @@ in apicalls.py, it's important to send the right form. For json, use json= rathe
 in the response() argument. One thing that was challenging in this assignment was the aspects.py
 section. Overall, I was kind of lost and didn't exactly know what direction to go in to create
 the code. For example, I didn't know where to start for functions such as entity_mentions(),
-summarize_items(), or question_scope(). One thing I can do to better understand is further look
-at the code within these functions, understand how the code works, and how it relates back to
-api calls in the first place. For example, I will examine the entity_mentions() function, and how 
+summarize_items(), or question_scope(). To form a better understanding, I will examine the entity_mentions() function, and how 
 the function interacted with dataframes in the 'inside' variable. I hope to understand how 
 to use the &, <, and + operators in the context of dissecting dataframes for function use. I also 
 hope to understand how to interact with a dataframe like how the 'inside' variable used 
