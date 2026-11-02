@@ -15,9 +15,3 @@ understand how caching works in practice, I can continue making API calls and
 using the `cache_file` argument. The `sentiment_step()` function uses caching
 and can help me understand how it works. I think I need to spend more time
 calling APIs and using them in VS Code.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (REST API, endpoint, HTTP status code,
-raise_for_status, API key, form data vs. JSON body, rate limit, caching,
-json_normalize, record_path, meta, grain, opinion mining, named-entity
-recognition, prompt, system prompt, reasoning model), and make it actionable.
