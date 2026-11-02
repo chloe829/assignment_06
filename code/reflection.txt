@@ -1,15 +1,16 @@
-For this assignment, I learned about how to make api calls and use my API key as part of
-a data pipeline. For example, the first and one of the most importants steps is to create a
-.env file to put in (CENT_API_KEY=''). This way, people cannot steal a person's api key and use
-it without permission. I also learned about differences in code for making api calls. For example,
-in apicalls.py, it's important to send the right form. For json, use json= rather than data=
-in the response() argument. One thing that was challenging in this assignment was the pipelin.py
-section. Pipeline.py introduced caching which I still don't completely understand. In pipeline.py
-we were supposed to cache what the APIs said that were called. To get a better understanding,
-I can first understand the definition of caching. When I dived deeper, caching means to store 
-a copy of an API response in a fast, temporary storage layer. However, to understand how caching 
-is used in practice, I can continue to work with calling APIs, and using the cache_file argument 
-to complete my understanding. I think I need to spend more time calling APIs and using them in code.
+For this assignment, I learned how to make API calls and use my API key as part of
+a data pipeline. One of the first and most important steps is to create a
+`.env` file and add the key as `CENT_API_KEY`. This helps keep the API key private.
+I also learned about the differences in the code for making API calls. For
+example, in `apicalls.py`, it's important to send the right kind of data. For
+JSON, use `json=` rather than `data=` in the `requests.post()` arguments. One
+thing that was challenging in this assignment was the `pipeline.py` section.
+`pipeline.py` introduced caching, which I still don't completely understand. We
+were supposed to cache the responses returned by the APIs. After looking into
+caching, I learned that it means storing a copy of an API response in a fast,
+temporary storage layer. To understand how caching is used in practice, I can
+continue working with API calls and use the `cache_file` argument. I think I
+need to spend more time calling APIs and using them in code.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
