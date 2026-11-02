@@ -1,16 +1,20 @@
 For this assignment, I learned how to make API calls and use my API key as part of
-a data pipeline. One of the first and most important steps is to create a
-`.env` file and add the key as `CENT_API_KEY`. This helps keep the API key private.
-I also learned about the differences in the code for making API calls. For
-example, in `apicalls.py`, it's important to send the right kind of data. For
-JSON, use `json=` rather than `data=` in the `requests.post()` arguments. One
-thing that was challenging in this assignment was the `pipeline.py` section.
-`pipeline.py` introduced caching, which I still don't completely understand. We
-were supposed to cache the responses returned by the APIs. After looking into
-caching, I learned that it means storing a copy of an API response in a fast,
-temporary storage layer. To understand how caching is used in practice, I can
-continue working with API calls and use the `cache_file` argument. I think I
-need to spend more time calling APIs and using them in code.
+a data pipeline. One of the first and most important steps is to create a `.env`
+file and add the key using the `CENT_API_KEY` variable. This helps protect the
+key from being used without permission. I also learned that API calls can require
+different types of request bodies. For example, in `apicalls.py`, it is important
+to send the right kind of data. For JSON, use `json=` rather than `data=` in the
+`requests.post()` call.
+
+One challenging part of this assignment was `pipeline.py`, which introduced
+caching. I still don't completely understand it. In `pipeline.py`, we were
+supposed to cache the responses returned by the APIs. To understand caching
+better, I can start by reviewing its definition. I learned that caching means
+storing a copy of an API response in a fast, temporary storage layer. To better
+understand how caching works in practice, I can continue making API calls and
+using the `cache_file` argument. The `sentiment_step()` function uses caching
+and can help me understand how it works. I think I need to spend more time
+calling APIs and using them in VS Code.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
