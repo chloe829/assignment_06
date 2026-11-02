@@ -1,4 +1,14 @@
-Write your reflection here.
+For this assignment, I learned about how to make api calls and use my api key as part of
+a data pipeline. For example, the first and one of the most importants steps is to create a
+.env file to put in (CENT_API_KEY=''). This way, people cannot steal a person's api key and use
+it without permission. I also learned about differences in code for making api calls. For example,
+in apicalls.py, it's important to send the right form. For json, use json= rather than data=
+in the response() argument. One thing that was challenging in this assignment was the aspects.py
+section. Overall, I was kind of lost and didn't exactly know what direction to go in to create
+the code. For example, I didn't know where to start for functions such as entity_mentions(),
+summarize_items(), or question_scope(). One thing I can do to better understand is further look
+at the code within these functions, understand how the code works, and how it relates back to
+api calls in the first place.
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (REST API, endpoint, HTTP status code,
